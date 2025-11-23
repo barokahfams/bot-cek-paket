@@ -1,7 +1,7 @@
 import os
 import requests
 from dotenv import load_dotenv
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Application, CommandHandler, MessageHandler, filters
 from bs4 import BeautifulSoup
 
 load_dotenv()
